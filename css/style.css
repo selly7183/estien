@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+}
+header img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.inner {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+}
+.inner .intro_box {
+  margin-bottom: 80px;
+  position: relative;
+}
+.inner .intro_box .circle_box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.inner .intro_box .circle_box .circle {
+  width: 8px;
+  height: 8px;
+  background-color: #7ed6d4;
+  border-radius: 50%;
+  margin-right: 9px;
+  margin-bottom: 5px;
+}
+.inner .intro_box .circle_box .circle.c1 {
+  opacity: 0.2;
+}
+.inner .intro_box .circle_box .circle.c2 {
+  opacity: 0.5;
+}
+.inner .intro_box .circle_box .circle.c3 {
+  opacity: 1;
+  margin-right: 0;
+}
+.inner .intro_box .intro_en {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(34, 30, 31, 0.7);
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+}
+.inner .intro_box .intro_txt {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.38;
+  letter-spacing: -2px;
+  color: #221e1f;
+}
+.inner .intro_box::after {
+  content: "";
+  display: block;
+  clear: both;
+  position: absolute;
+  right: 100px;
+  background-color: #7ed6d4;
+  width: 166px;
+  height: 166px;
+  right: -32px;
+  top: 142px;
+}
+.inner .intro_map {
+  position: relative;
+  margin-bottom: 280px;
+}
+.inner .intro_map iframe {
+  width: 1400px;
+}
+.inner .intro_map .map_box {
+  position: absolute;
+  background-color: #fff;
+  width: 1038px;
+  height: 173px;
+  bottom: -100px;
+  left: 50%;
+  box-shadow: 0px 10px 67px 20px rgba(176, 176, 176, 0.13);
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner .intro_map .map_box ul {
+  display: flex;
+  justify-content: center;
+}
+.inner .intro_map .map_box ul li {
+  display: flex;
+  align-items: baseline;
+  margin-right: 75px;
+}
+.inner .intro_map .map_box ul li .map_tit {
+  width: 60px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 12px;
+  background-color: #202122;
+  color: #fff;
+  margin-right: 15px;
+}
+.inner .intro_map .map_box ul li .map_txt {
+  color: rgba(34, 30, 31, 0.7);
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.67;
+  letter-spacing: -0.9px;
+  text-align: left;
+}
+.inner .intro_map .map_box ul li:nth-of-type(3) {
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
